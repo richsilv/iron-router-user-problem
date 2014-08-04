@@ -1,0 +1,34 @@
+<head>
+  <title>tempapp</title>
+</head>
+
+<body>
+</body>
+
+<template name="layout">
+
+	<div>
+		{{> loginButtons}}
+	</div>
+
+	<div>
+		{{> yield}}
+	</div>
+
+</template>
+
+<template name="notLoggedIn1">
+	<h1>Not Logged In 1</h1>
+</template>
+
+<template name="notLoggedIn2">
+	<h1>Not Logged In 2</h1>
+</template>
+
+<template name="loggedIn1">
+	<h1>Logged In 1</h1>
+</template>
+
+<template name="loggedIn2">
+	<h1>Logged In 2</h1>
+</template>
